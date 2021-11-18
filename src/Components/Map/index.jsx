@@ -10,7 +10,7 @@ const Map = () => {
   useEffect(() => {
     async function handleGetCompanies() {
       try {
-        const response = await fetch(SERVER + "http://localhost:3333/empresas");
+        const response = await fetch(SERVER + "/empresas");
         const data = await response.json();
 
         setCompaniesList(data);

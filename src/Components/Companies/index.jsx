@@ -98,7 +98,7 @@ const Companies = () => {
                 return
             }
 
-            await fetch( SERVER + "http://localhost:3333/empresas",
+            await fetch( SERVER + "/empresas",
             {
                 headers: {
                   'Accept': 'application/json',

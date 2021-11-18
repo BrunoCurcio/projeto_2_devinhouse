@@ -10,7 +10,7 @@ const StoredProducts = () => {
 
     useEffect(() => {
         async function handleGetStored() {
-        const response = await fetch(SERVER + "http://localhost:3333/produtos");
+        const response = await fetch(SERVER + "/produtos");
         const result = await response.json();
         setStoredProducts(result);
         }

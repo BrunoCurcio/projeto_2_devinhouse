@@ -64,7 +64,7 @@ const Products = () => {
                 return
             }
 
-            await fetch(SERVER + "http://localhost:3333/produtos",
+            await fetch(SERVER + "/produtos",
             {
                 headers: {
                   'Accept': 'application/json',
@@ -102,7 +102,7 @@ const Products = () => {
     useEffect(() => {
 
         async function getProvider() {
-          const result = await fetch(SERVER + "http://localhost:3333/fornecedores");
+          const result = await fetch(SERVER + "/fornecedores");
           const data = await result.json();
           setProviders(data);
         }
@@ -114,7 +114,7 @@ const Products = () => {
       useEffect(() => {
 
         async function getGroup() {
-          const result = await fetch(SERVER + "http://localhost:3333/categorias");
+          const result = await fetch(SERVER + "/categorias");
           const data = await result.json();
           setGroups(data);
         }
