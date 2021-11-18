@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { useHistory } from "react-router";
 import { toast } from "react-toastify";
+import SERVER from "../../utils/constants";
 import "./style.css";
 
 
@@ -97,7 +98,7 @@ const Companies = () => {
                 return
             }
 
-            await fetch("http://localhost:3333/empresas",
+            await fetch( SERVER + "http://localhost:3333/empresas",
             {
                 headers: {
                   'Accept': 'application/json',
