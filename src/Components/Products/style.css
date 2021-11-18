@@ -1,0 +1,120 @@
+.container-form-products {
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: #F1EFF1;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 54%;
+  margin: 1em auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.form-header h1 {
+  color: #0066A0;
+}
+
+.container-form-products .form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1em;
+  width: 100%;
+}
+
+.container-form-products .form-header h1 {
+  margin: 0 1em;
+}
+
+.container-form-products .form-header .btn-products {
+  margin: 0 1em;
+}
+
+.container-form-products .img-container,
+.container-form-products .product-data,
+.container-form-products .product-info,
+.container-form-products .product-description,
+.container-form-products .product-select {
+  width: 95%;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-data, .product-select {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+}
+
+.product-url, .product-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+} 
+
+.product-url {
+  flex: 1 0 70px;
+  margin-right: 1em;
+}
+
+label {
+  display: flex;
+  flex: 1 0 70px;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  gap: 0.5em;
+  margin-right: 1em;
+}
+
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 4em;
+  resize: none; 
+  border-radius: 0.6em;
+}
+
+select {
+  background-color: white;
+  border-radius: 0.3em;
+  width: 90%;
+  height: 1.7em;
+}
+
+.btn-products {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color:#33C9E2;
+    border-radius:28px;
+    border:1px solid #33C9E2;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight: bold;
+    padding:12px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+  }
+  
+  .btn-products:hover {
+    background-color:#89d9e7;
+  }
+  .btn-products:active {
+    position:relative;
+    top:1px;
+  }

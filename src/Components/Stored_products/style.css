@@ -1,0 +1,46 @@
+.stored-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.container-items {
+    border: 1px solid #0066A1;
+    background: #F1EFF1;
+    border-radius: 1em;
+    box-sizing: border-box;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px}
+
+.title {
+    text-align: center;
+    color: #0066A0;
+}
+
+.stored-img {
+    width: 10em;
+    height: 10em;
+    margin: 0.6em;
+    border: 1px solid #0066A1;
+    border-radius: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px}
+
+.item-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.4em;
+    flex-direction: column;
+    color: #0066A0;
+    font-weight: bold;
+}

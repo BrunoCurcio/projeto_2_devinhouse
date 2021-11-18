@@ -1,0 +1,30 @@
+.navbar{
+  background-color: #0066A1;
+  display: flex;
+  justify-content: center;
+}
+  
+.navbar-items {
+  color: #FFFFFF;
+  font-weight: bold;
+  display: flex;
+  gap: 2em;
+  list-style-type: none;
+} 
+
+.navbar-logo {
+  cursor:default;
+}
+
+.navbar-item {
+  cursor: pointer;
+}
+
+.navbar-item:hover {
+  color: lightgray;
+}
+
+.navbar-item:active {
+  position:relative;
+  top:1px;
+}

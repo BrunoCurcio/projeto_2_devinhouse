@@ -1,0 +1,56 @@
+{
+  "produtos": [
+    {
+      "image_url": "https://static.paodeacucar.com/img/uploads/1/991/13038991.jpg",
+      "product_name": "Suco de laranja Del Vale",
+      "unit_cost": "6.00",
+      "description": "Suco de polpa de fruta sem adição de açúcares. Para informações nutricionais e validade, consulte o rótulo.",
+      "provider": "Del valle",
+      "group": "Outro",
+      "id": 1
+    },
+    {
+      "image_url": "https://a-static.mlcdn.com.br/1500x1500/notebook-dell-inspiron-15-3000-3501-a25p-intel-core-i3-4gb-256gb-ssd-156-led-windows-10/magazineluiza/228079200/8a14fa5828e95c1e2052dbbc5ee91e67.jpg",
+      "product_name": "Notebook Dell Inspiron 15 3000",
+      "unit_cost": "3.000",
+      "description": "Notebook Dell Inspiron 15 3000 3501-A25P - Intel Core i3 4GB 256GB SSD 15,6” LED Windows 10",
+      "provider": "Dell",
+      "group": "Eletrônicos",
+      "id": 2
+    }
+  ],
+  "empresas": [
+    {
+      "razao_social": "Supermercado Paripassu Involves Ltda",
+      "nome_fantasia": "DevInMarket",
+      "cnpj": "27.131185000120",
+      "email_empresa": "devinmarket@gmail.com",
+      "cep": "88050639",
+      "endereco": "Rua no centro",
+      "numero": "666",
+      "bairro": "Centro",
+      "cidade": "Florianópolis",
+      "complemento": "Próximo ao continente",
+      "latitude": "-27.5969",
+      "longitude": "-48.5495",
+      "id": 1
+    }
+  ],
+  "fornecedores": [
+    "Del valle",
+    "Amazon",
+    "Dell",
+    "Açougue",
+    "Direto do campo"
+  ],
+  "categorias": [
+    "Carnes",
+    "Laticínios",
+    "Higiene",
+    "Cereais e massas",
+    "Vegetais e frutas",
+    "Eletrônicos",
+    "Utensílios",
+    "Outro"
+  ]
+}
