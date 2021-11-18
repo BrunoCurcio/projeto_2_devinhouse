@@ -4,6 +4,7 @@ import { useHistory } from "react-router";
 import { useEffect } from "react";
 import { toast } from "react-toastify";
 import "./style.css";
+import SERVER from "../../utils/constants";
 
 const Products = () => {
 
@@ -63,7 +64,7 @@ const Products = () => {
                 return
             }
 
-            await fetch("http://localhost:3333/produtos",
+            await fetch(SERVER + "http://localhost:3333/produtos",
             {
                 headers: {
                   'Accept': 'application/json',
@@ -101,7 +102,7 @@ const Products = () => {
     useEffect(() => {
 
         async function getProvider() {
-          const result = await fetch("http://localhost:3333/fornecedores");
+          const result = await fetch(SERVER + "http://localhost:3333/fornecedores");
           const data = await result.json();
           setProviders(data);
         }
@@ -113,7 +114,7 @@ const Products = () => {
       useEffect(() => {
 
         async function getGroup() {
-          const result = await fetch("http://localhost:3333/categorias");
+          const result = await fetch(SERVER + "http://localhost:3333/categorias");
           const data = await result.json();
           setGroups(data);
         }

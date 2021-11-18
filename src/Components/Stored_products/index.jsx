@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import SERVER from "../../utils/constants";
 import "./style.css";
 
 
@@ -9,7 +10,7 @@ const StoredProducts = () => {
 
     useEffect(() => {
         async function handleGetStored() {
-        const response = await fetch("http://localhost:3333/produtos");
+        const response = await fetch(SERVER + "http://localhost:3333/produtos");
         const result = await response.json();
         setStoredProducts(result);
         }

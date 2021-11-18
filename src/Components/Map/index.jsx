@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {MapContainer, TileLayer, Marker, Popup} from "react-leaflet";
+import SERVER from "../../utils/constants";
 import "./style.css";
 
 const Map = () => {
@@ -9,7 +10,7 @@ const Map = () => {
   useEffect(() => {
     async function handleGetCompanies() {
       try {
-        const response = await fetch("http://localhost:3333/empresas");
+        const response = await fetch(SERVER + "http://localhost:3333/empresas");
         const data = await response.json();
 
         setCompaniesList(data);
