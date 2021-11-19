@@ -1,3 +1,3 @@
 # Projeto Avaliativo 2 - SGI
 
-Para o curso DevInHouse do SENAI
+Projeto de finalização do primeiro módulo (Front - End) do curso DEVinHouse do SENAI/SC.
