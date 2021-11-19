@@ -1,19 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .navbar{
   background-color: #0066A1;
   display: flex;
+  align-items: center;
   justify-content: center;
+  width: 100%;
 }
   
 .navbar-items {
+  display: flex;
+  align-items: center;
   color: #FFFFFF;
   font-weight: bold;
-  display: flex;
   gap: 2em;
   list-style-type: none;
+
 } 
 
 .navbar-logo {
   cursor:default;
+  font-size: 3em;
 }
 
 .navbar-item {
@@ -27,4 +39,14 @@
 .navbar-item:active {
   position:relative;
   top:1px;
+}
+
+@media screen and (max-width:600px){
+  .navbar,.navbar-items{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
 }

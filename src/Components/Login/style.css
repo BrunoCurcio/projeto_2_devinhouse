@@ -6,7 +6,7 @@
   border: 1px solid black;
   border-radius: 1em;
 
-  width: 30%;
+  width: 350px;
   background-color: #F1EFF1;
 }
 
@@ -67,4 +67,22 @@ label {
 .btn-sign-in:active {
   position:relative;
   top:1px;
+}
+
+@media screen and (max-width:600px){
+  .login-page {
+    width: 250px;
+  }
+
+  .container-login {
+    display: flex;
+  }
+
+  label {
+    display: flex;
+  }
+
+  .input-login {
+    width: 15em;
+  }
 }

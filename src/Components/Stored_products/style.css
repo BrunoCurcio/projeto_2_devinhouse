@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     gap: 1em;
 }
 
@@ -10,20 +10,19 @@
     border: 1px solid #0066A1;
     background: #F1EFF1;
     border-radius: 1em;
-    box-sizing: border-box;
-    object-fit: contain;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
-    flex-direction: column;
     flex-wrap: wrap;
-    width: 40%;
+    flex-direction: column;
+    width: 300px;
     margin: 1em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px}
 
 .title {
     text-align: center;
     color: #0066A0;
+    margin-top: 1em;
 }
 
 .stored-img {
@@ -43,4 +42,14 @@
     flex-direction: column;
     color: #0066A0;
     font-weight: bold;
+}
+
+@media screen and (max-width:600px){
+    .stored-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 200px;
+        margin: 0 auto;
+    }
 }
