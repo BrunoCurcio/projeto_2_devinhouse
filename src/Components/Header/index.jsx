@@ -5,7 +5,6 @@ import "./style.css";
 const Header = () => {
     const history = useHistory();
     return (
-        <div>
             <nav className="navbar">
                 <ul className="navbar-items">
                     <li className="navbar-logo">SGI</li>
@@ -16,7 +15,6 @@ const Header = () => {
                     <li className="navbar-item" onClick={() => history.push("/")}>Logout</li>
                 </ul>
             </nav>
-        </div>
     )
 }
 
