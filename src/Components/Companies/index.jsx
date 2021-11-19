@@ -158,7 +158,7 @@ const Companies = () => {
                     <label><input  type="text" value={nomeFantasia} onChange={(event) => setNomeFantasia(event.target.value)}></input>Nome Fantasia*</label>
                 </div>
                 <div className="company-contact">
-                    <label><input type="number" value={cnpj} onChange={(event) => setCnpj(event.target.value)}></input>CNPJ*</label>
+                    <label><input type="text" value={cnpj} onChange={(event) => setCnpj(event.target.value)}></input>CNPJ*</label>
                     <label><input type="email" value={emailEmpresa} onChange={(event) => setEmailEmpresa(event.target.value)}></input>E-mail*</label>
                 </div>
             </div>
@@ -167,7 +167,7 @@ const Companies = () => {
 
             <div className="company-adress">
                 <div className="adress-group-1">
-                    <label><input type="number" value={cep} onChange={(event) => setCep(event.target.value)}></input>CEP*</label>
+                    <label><input type="text" value={cep} onChange={(event) => setCep(event.target.value)}></input>CEP*</label>
                     <label><input type="text" value={endereco} onChange={(event) => setEndereco(event.target.value)}></input>Endereço*</label>
                 </div>
                 <div className="adress-group-2">
